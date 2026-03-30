@@ -18,70 +18,59 @@ jobs:
         with:
           node-version: 18
 
-      - name: Install dependencies
-        run: npm install axios
-
       - name: Update README
         run: |
           node <<EOF
           const fs = require("fs");
-const path = require("path");
+          const path = require("path");
 
-function getProblems(dir) {
-  let problems = [];
+          function getProblems(dir) {
+            let problems = [];
+            const files = fs.readdirSync(dir);
 
-  const files = fs.readdirSync(dir);
+            for (let file of files) {
+              if (fs.statSync(file).isDirectory() && file !== ".git") {
+                problems.push(file);
+              }
+            }
+            return problems;
+          }
 
-  for (let file of files) {
-    const fullPath = path.join(dir, file);
+          function generateTable(problems) {
+            let table = "| Problem | Link |\\n|--------|------|\\n";
+            problems.forEach(p => {
+              table += `| ${p} | [View](./${p}) |\\n`;
+            });
+            return table;
+          }
 
-    if (fs.statSync(fullPath).isDirectory()) {
-      problems.push({
-        name: file,
-        path: fullPath
-      });
-    }
-  }
+          function updateReadme(table) {
+            let readme = fs.readFileSync("README.md", "utf-8");
 
-  return problems;
-}
-
-function generateTable(problems) {
-  let table = `| Problem | Link |\n|--------|------|\n`;
-
-  problems.forEach(p => {
-    table += `| ${p.name} | [View](./${p.name}) |\n`;
-  });
-
-  return table;
-}
-
-function updateReadme(table) {
-  let readme = fs.readFileSync("README.md", "utf-8");
-
-  const newSection = `
+            const newSection = `
 <!-- START_TABLE -->
 ${table}
 <!-- END_TABLE -->
 `;
 
-  readme = readme.replace(
-    /<!-- START_TABLE -->[\s\S]*<!-- END_TABLE -->/,
-    newSection
-  );
+            readme = readme.replace(
+              /<!-- START_TABLE -->[\\s\\S]*<!-- END_TABLE -->/,
+              newSection
+            );
 
-  fs.writeFileSync("README.md", readme);
-}
+            fs.writeFileSync("README.md", readme);
+          }
 
-const problems = getProblems(".");
-const table = generateTable(problems);
-updateReadme(table);
+          const problems = getProblems(".");
+          const table = generateTable(problems);
+          updateReadme(table);
           EOF
 
       - name: Commit changes
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add README.md
-          git commit -m "Auto update LeetCode stats" || echo "No changes"
+          git add .
+          git commit -m "Auto update problem table" || echo "No changes"
           git push
+          
