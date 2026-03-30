@@ -76,14 +76,10 @@ trees/
 
 ---
 
-## 📋 Problem List (Sample)
+## 📋 Problem List
 
-| Problem                                        | Difficulty | Topic               |
-| ---------------------------------------------- | ---------- | ------------------- |
-| Two Sum                                        | Easy       | Arrays              |
-| Best Time to Buy and Sell Stock                | Easy       | Arrays              |
-| Longest Substring Without Repeating Characters | Medium     | Strings             |
-| Climbing Stairs                                | Easy       | Dynamic Programming |
+<!-- START_TABLE -->
+<!-- END_TABLE -->
 
 ---
 
