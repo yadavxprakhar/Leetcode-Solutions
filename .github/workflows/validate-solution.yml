@@ -1,0 +1,109 @@
+name: ✅ Validate Solution Structure
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'topics/**'
+      - 'daily/**'
+
+jobs:
+  validate:
+    name: Check Solution Format
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2 # Need previous commit to detect new files
+
+      - name: 🔍 Get Changed Files
+        id: changed-files
+        run: |
+          echo "changed=$(git diff --name-only HEAD~1 HEAD | tr '\n' ' ')" >> $GITHUB_OUTPUT
+
+      - name: ✅ Validate Java Solution Files
+        run: |
+          python3 - <<'EOF'
+          import os
+          import sys
+
+          changed = "${{ steps.changed-files.outputs.changed }}".split()
+          java_files = [f for f in changed if f.endswith('.java') and 'topics/' in f]
+
+          errors = []
+          warnings = []
+
+          REQUIRED_SECTIONS = [
+              'INTUITION',
+              'APPROACH',
+              'COMPLEXITY',
+              'Time',
+              'Space',
+          ]
+
+          for filepath in java_files:
+              if not os.path.exists(filepath):
+                  continue
+              
+              with open(filepath, 'r') as f:
+                  content = f.read()
+              
+              for section in REQUIRED_SECTIONS:
+                  if section not in content:
+                      warnings.append(f"⚠️  {filepath}: Missing section '{section}'")
+              
+              # Check for placeholder text that wasn't filled in
+              if 'MM-DD' in content:
+                  warnings.append(f"⚠️  {filepath}: Date not filled in (still shows MM-DD)")
+              
+              if 'Problem Statement' in content and '???' in content:
+                  warnings.append(f"⚠️  {filepath}: Placeholder text detected")
+
+          if warnings:
+              print("Validation Warnings:")
+              for w in warnings:
+                  print(w)
+              print(f"\n{len(warnings)} warning(s) found. Please update the solution.")
+              # Warnings don't fail the build, just notify
+          
+          if errors:
+              print("\nValidation Errors:")
+              for e in errors:
+                  print(e)
+              sys.exit(1)
+          
+          print(f"✅ Validated {len(java_files)} Java file(s). All good!")
+          EOF
+
+      - name: 📋 Check Folder Naming Convention
+        run: |
+          python3 - <<'EOF'
+          import os
+          import re
+          import sys
+
+          errors = []
+          
+          for topic_dir in ['topics']:
+              if not os.path.exists(topic_dir):
+                  continue
+              for topic in os.listdir(topic_dir):
+                  topic_path = os.path.join(topic_dir, topic)
+                  if not os.path.isdir(topic_path):
+                      continue
+                  for problem in os.listdir(topic_path):
+                      # Expected: {number}-{slug} e.g. "1-two-sum"
+                      if not re.match(r'^\d+-[a-z0-9-]+$', problem):
+                          errors.append(f"❌ Bad folder name: {topic_path}/{problem}")
+                          errors.append(f"   Expected format: {{number}}-{{kebab-case-name}}")
+
+          if errors:
+              for e in errors:
+                  print(e)
+              sys.exit(1)
+          
+          print("✅ Folder naming conventions are valid!")
+          EOF
+
