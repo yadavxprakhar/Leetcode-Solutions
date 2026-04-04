@@ -4,7 +4,7 @@
 
 <br/>
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-yadavxprakhar-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/in/prakharyxdev/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-yadavxprakhar-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/yadavxprakhar/)
 [![GitHub](https://img.shields.io/badge/GitHub-yadavxprakhar-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yadavxprakhar)
 [![Language](https://img.shields.io/badge/Language-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
 [![Last Updated](https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=Last+Updated&query=updated_at&url=https://api.github.com/repos/yadavxprakhar/Leetcode-Solutions&color=00C9A7)](https://github.com/yadavxprakhar/Leetcode-Solutions)
