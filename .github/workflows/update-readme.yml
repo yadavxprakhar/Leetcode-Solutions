@@ -41,7 +41,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add README.md
+          git add README.md scripts/problem_index.json
           # Only commit if there are changes
-          git diff --staged --quiet || git commit -m "chore(stats): auto-update progress [skip ci]"
+          git diff --staged --quiet || git commit -m "chore(stats): auto-update progress + difficulty cache [skip ci]"
           git push
