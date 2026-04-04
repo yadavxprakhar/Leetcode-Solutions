@@ -149,7 +149,7 @@ Leetcode-Solutions/
 
 [![Instagram](https://img.shields.io/badge/Instagram-29k%2B_Followers-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/prakharyxdev)
 [![YouTube](https://img.shields.io/badge/YouTube-Tech_Content-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@PrakharYxdev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([https://linkedin.com/in/](https://www.linkedin.com/in/prakharyxdev/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([https://linkedin.com/in/]https://www.linkedin.com/in/prakharyxdev/)
 
 </div>
 
