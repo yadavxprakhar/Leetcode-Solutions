@@ -26,5 +26,25 @@
   "14-longest-common-prefix": {
     "title": "Longest Common Prefix",
     "difficulty": "easy"
+  },
+  "8-string-to-integer-atoi": {
+    "title": "String to Integer (atoi)",
+    "difficulty": "medium"
+  },
+  "5-longest-palindromic-substring": {
+    "title": "Longest Palindromic Substring",
+    "difficulty": "medium"
+  },
+  "1890-sum-of-beauty-of-all-substrings": {
+    "title": "Sum of Beauty of All Substrings",
+    "difficulty": "medium"
+  },
+  "1737-maximum-nesting-depth-of-the-parentheses": {
+    "title": "Maximum Nesting Depth of the Parentheses",
+    "difficulty": "easy"
+  },
+  "13-roman-to-integer": {
+    "title": "Roman to Integer",
+    "difficulty": "easy"
   }
 }

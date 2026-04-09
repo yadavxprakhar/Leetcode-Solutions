@@ -26,10 +26,10 @@ I'm **Prakhar Yadav**, a final-year CS student obsessed with building scalable s
 <!-- STATS:START -->
 | Metric | Count |
 |--------|-------|
-| 🟢 Easy | 5 |
-| 🟡 Medium | 2 |
+| 🟢 Easy | 7 |
+| 🟡 Medium | 5 |
 | 🔴 Hard | 0 |
-| 📦 **Total Solved** | **7** |
+| 📦 **Total Solved** | **12** |
 <!-- STATS:END -->
 
 ---
@@ -86,7 +86,7 @@ Leetcode-Solutions/
 <!-- TOPICS:START -->
 | Topic | Solved | Easy | Medium | Hard |
 |-------|--------|------|--------|------|
-| Strings | 7 | 5 | 2 | 0 |
+| Strings | 12 | 7 | 5 | 0 |
 <!-- TOPICS:END -->
 
 ---
@@ -97,10 +97,13 @@ Leetcode-Solutions/
 | # | Problem | Difficulty | Topic | Solution |
 |---|---------|------------|-------|---------|
 | 812 | Rotate String | 🟢 Easy | Strings | [View →](./topics/strings/812-rotate-string/) |
+| 8 | String to Integer (atoi) | 🟡 Medium | Strings | [View →](./topics/strings/8-string-to-integer-atoi/) |
+| 5 | Longest Palindromic Substring | 🟡 Medium | Strings | [View →](./topics/strings/5-longest-palindromic-substring/) |
 | 451 | Sort Characters By Frequency | 🟡 Medium | Strings | [View →](./topics/strings/451-sort-characters-by-frequency/) |
 | 242 | Valid Anagram | 🟢 Easy | Strings | [View →](./topics/strings/242-valid-anagram/) |
 | 205 | Isomorphic Strings | 🟢 Easy | Strings | [View →](./topics/strings/205-isomorphic-strings/) |
 | 2032 | Largest Odd Number in String | 🟢 Easy | Strings | [View →](./topics/strings/2032-largest-odd-number-in-string/) |
+| 1890 | Sum of Beauty of All Substrings | 🟡 Medium | Strings | [View →](./topics/strings/1890-sum-of-beauty-of-all-substrings/) |
 | 151 | Reverse Words in a String | 🟡 Medium | Strings | [View →](./topics/strings/151-reverse-words-in-a-string/) |
 | 14 | Longest Common Prefix | 🟢 Easy | Strings | [View →](./topics/strings/14-longest-common-prefix/) |
 <!-- RECENT:END -->
