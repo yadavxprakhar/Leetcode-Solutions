@@ -1,0 +1,39 @@
+/*
+class Node {
+    int data;
+    Node next;
+
+    Node(int x) {
+        data = x;
+        next = null;
+    }
+}
+*/
+class Solution {
+    public Node insertPos(Node head, int pos, int val) {
+        // code here
+        if(head == null){
+            if(pos==1){
+                return new Node(val);
+            }
+        }
+        if( pos==1){
+            Node newNode = new Node(val);
+            newNode.next = head;
+            head = newNode;
+            return head;
+        }
+        int cnt =0;
+        Node temp = head;
+        while(temp != null){
+            cnt++;
+            if(cnt ==pos-1){
+               Node node1 = new Node(val);
+               node1.next= temp.next;
+               temp.next = node1;
+            }
+            temp = temp.next;
+        }
+        return head;
+    }
+}
