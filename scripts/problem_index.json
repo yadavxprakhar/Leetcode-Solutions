@@ -50,5 +50,9 @@
   "237-delete-node-in-a-linked-list": {
     "title": "Delete Node in a Linked List",
     "difficulty": "medium"
+  },
+  "203-remove-linked-list-elements": {
+    "title": "Remove Linked List Elements",
+    "difficulty": "easy"
   }
 }
