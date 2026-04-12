@@ -31,6 +31,7 @@ class Solution {
                Node node1 = new Node(val);
                node1.next= temp.next;
                temp.next = node1;
+               break; 
             }
             temp = temp.next;
         }
