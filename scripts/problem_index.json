@@ -54,5 +54,13 @@
   "203-remove-linked-list-elements": {
     "title": "Remove Linked List Elements",
     "difficulty": "easy"
+  },
+  "908-middle-of-the-linked-list": {
+    "title": "Middle of the Linked List",
+    "difficulty": "easy"
+  },
+  "206-reverse-linked-list": {
+    "title": "Reverse Linked List",
+    "difficulty": "easy"
   }
 }
