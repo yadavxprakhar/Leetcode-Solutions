@@ -37,7 +37,20 @@ I'm **Prakhar Yadav**, a final-year CS student obsessed with building scalable s
 ## 📂 Repository Structure
 
 ```
-Leetcode-Solutions/
+DSA-Solutions/
+│
+├── 📁 .github/
+│   └── workflows/
+│       ├── update-readme.yml
+│       └── validate-solution.yml
+│
+├── 📁 Difficulty/
+│   ├── Basic/
+│   ├── Easy/
+│
+├── 📁 scripts/
+│   ├── update_readme.py
+│   └── generate_stats.py
 │
 ├── 📁 topics/
 │   ├── arrays/
@@ -55,26 +68,12 @@ Leetcode-Solutions/
 │   ├── heap/
 │   └── math/
 │
-├── 📁 daily/
-│   └── 2025/
-│       ├── january/
-│       └── ...
-│
 ├── 📁 patterns/
 │   ├── sliding-window/
 │   ├── two-pointers/
 │   ├── fast-slow-pointers/
 │   ├── merge-intervals/
 │   └── ...
-│
-├── 📁 .github/
-│   └── workflows/
-│       ├── update-readme.yml
-│       └── validate-solution.yml
-│
-├── 📁 scripts/
-│   ├── update_readme.py
-│   └── generate_stats.py
 │
 └── README.md
 ```
