@@ -62,5 +62,9 @@
   "206-reverse-linked-list": {
     "title": "Reverse Linked List",
     "difficulty": "easy"
+  },
+  "19-remove-nth-node-from-end-of-list": {
+    "title": "Remove Nth Node From End of List",
+    "difficulty": "medium"
   }
 }
