@@ -13,18 +13,17 @@ class Node {
 */
 class Solution {
     public Node reverse(Node head) {
-       Node temp = head;
-       Stack <Integer> st = new Stack<>();
-       while(temp!= null){
-           st.push(temp.data);
-           temp = temp.next;
+       if(head==null || head.next == null){
+           return head;
        }
-       Node temp1 = head;
-       while(temp1!=null){
-           temp1.data = st.peek();
-           st.pop();
-           temp1=temp1.next;
+       Node curr = head;
+       Node last = null;
+       while(curr!= null){
+           last = curr.prev;
+           curr.prev = curr.next;
+           curr.next = last;
+           curr = curr.prev;
        }
-       return head;
-    }
+       return last.prev;
+    }   
 }
