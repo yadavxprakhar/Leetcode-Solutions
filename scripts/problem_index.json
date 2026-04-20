@@ -66,5 +66,13 @@
   "19-remove-nth-node-from-end-of-list": {
     "title": "Remove Nth Node From End of List",
     "difficulty": "medium"
+  },
+  "142-linked-list-cycle-ii": {
+    "title": "Linked List Cycle II",
+    "difficulty": "medium"
+  },
+  "141-linked-list-cycle": {
+    "title": "Linked List Cycle",
+    "difficulty": "easy"
   }
 }
