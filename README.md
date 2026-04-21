@@ -26,9 +26,9 @@ I'm **Prakhar Yadav**, a final-year CS student obsessed with building scalable s
 <!-- STATS:START -->
 | Platform | 🔵 Basic | 🟢 Easy | 🟡 Medium | 🔴 Hard | **Total** |
 |----------|----------|---------|-----------|---------|-----------|
-| ![LC](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=white) LeetCode | — | 0 | 0 | 0 | **0** |
-| ![GFG](https://img.shields.io/badge/GFG-2F8D46?style=flat-square&logo=geeksforgeeks&logoColor=white) GeeksForGeeks | 0 | 0 | 0 | 0 | **0** |
-| **Combined** | — | 0 | 0 | 0 | **0** |
+| ![LC](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=white) LeetCode | — | 11 | 9 | 0 | **20** |
+| ![GFG](https://img.shields.io/badge/GFG-2F8D46?style=flat-square&logo=geeksforgeeks&logoColor=white) GeeksForGeeks | 2 | 9 | 1 | 0 | **12** |
+| **Combined** | — | 20 | 10 | 0 | **32** |
 <!-- STATS:END -->
 
 ---
@@ -38,13 +38,13 @@ I'm **Prakhar Yadav**, a final-year CS student obsessed with building scalable s
 <!-- PLATFORM:START -->
 | | LeetCode | GeeksForGeeks |
 |--|----------|---------------|
-| Problems | 0 (0%) | 0 (0%) |
-| Easy | 0 | 0 |
-| Medium | 0 | 0 |
+| Problems | 20 (62%) | 12 (38%) |
+| Easy | 11 | 9 |
+| Medium | 9 | 1 |
 | Hard | 0 | 0 |
-| Basic (GFG) | — | 0 |
+| Basic (GFG) | — | 2 |
 
-> 📦 **Total across both platforms: 0 problems solved**
+> 📦 **Total across both platforms: 32 problems solved**
 <!-- PLATFORM:END -->
 
 ---
@@ -100,6 +100,8 @@ DSA-Solutions/
 <!-- TOPICS:START -->
 | Topic | Solved | 🔵 Basic | 🟢 Easy | 🟡 Medium | 🔴 Hard |
 |-------|--------|----------|---------|-----------|---------|
+| Strings | 12 | 0 | 7 | 5 | 0 |
+| Linked List | 20 | 2 | 13 | 5 | 0 |
 <!-- TOPICS:END -->
 
 ---
@@ -109,7 +111,16 @@ DSA-Solutions/
 <!-- RECENT:START -->
 | # | Problem | Difficulty | Topic | Solution |
 |---|---------|------------|-------|---------|
-| — | No problems yet | — | — | — |
+| 812 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Rotate String | 🟢 Easy | Strings | [View →](./topics/strings/812-rotate-string/) |
+| 8 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) String to Integer (atoi) | 🟡 Medium | Strings | [View →](./topics/strings/8-string-to-integer-atoi/) |
+| 5 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Longest Palindromic Substring | 🟡 Medium | Strings | [View →](./topics/strings/5-longest-palindromic-substring/) |
+| 451 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Sort Characters By Frequency | 🟡 Medium | Strings | [View →](./topics/strings/451-sort-characters-by-frequency/) |
+| 242 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Valid Anagram | 🟢 Easy | Strings | [View →](./topics/strings/242-valid-anagram/) |
+| 205 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Isomorphic Strings | 🟢 Easy | Strings | [View →](./topics/strings/205-isomorphic-strings/) |
+| 2032 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Largest Odd Number in String | 🟢 Easy | Strings | [View →](./topics/strings/2032-largest-odd-number-in-string/) |
+| 1890 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Sum of Beauty of All Substrings | 🟡 Medium | Strings | [View →](./topics/strings/1890-sum-of-beauty-of-all-substrings/) |
+| 151 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Reverse Words in a String | 🟡 Medium | Strings | [View →](./topics/strings/151-reverse-words-in-a-string/) |
+| 14 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Longest Common Prefix | 🟢 Easy | Strings | [View →](./topics/strings/14-longest-common-prefix/) |
 <!-- RECENT:END -->
 
 ---
