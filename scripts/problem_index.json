@@ -163,5 +163,25 @@
     "title": "Palindrome Linked List",
     "difficulty": "easy",
     "platform": "leetcode"
+  },
+  "lc-328-odd-even-linked-list": {
+    "title": "Odd Even Linked List",
+    "difficulty": "medium",
+    "platform": "leetcode"
+  },
+  "lc-2216-delete-the-middle-node-of-a-linked-list": {
+    "title": "Delete the Middle Node of a Linked List",
+    "difficulty": "medium",
+    "platform": "leetcode"
+  },
+  "lc-148-sort-list": {
+    "title": "Sort List",
+    "difficulty": "medium",
+    "platform": "leetcode"
+  },
+  "gfg-medium-longest-subarray-with-sum-k": {
+    "title": "Longest Subarray with Sum K",
+    "difficulty": "medium",
+    "platform": "gfg"
   }
 }
