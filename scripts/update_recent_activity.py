@@ -27,6 +27,7 @@ import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 from collections import defaultdict
+from urllib.parse import quote
 
 # ══════════════════════════════════════════════════════════════════
 # CONFIG  — edit these if your folder layout changes
@@ -38,6 +39,10 @@ CACHE_FILE   = REPO_ROOT / "scripts" / "recent_cache.json"
 
 RECENT_LIMIT = 12   # rows shown in the table
 DRY_RUN      = "--dry-run" in sys.argv
+
+# GitHub repo info — used for building absolute clickable URLs
+GITHUB_REPO  = "yadavxprakhar/DSA-Solutions"
+GITHUB_BASE  = f"https://github.com/{GITHUB_REPO}/tree/main"
 
 # ── Regex patterns ──────────────────────────────────────────────
 LC_FOLDER_RE  = re.compile(r'^(\d+)-([a-z0-9-]+)$')           # 812-rotate-string
@@ -94,6 +99,47 @@ TOPIC_KEYWORDS = {
     "math":                  ["prime", "gcd", "lcm", "factorial", "fibonacci",
                               "power", "sqrt", "excel-sheet", "count-primes"],
 }
+
+def build_github_url(folder_path: Path) -> str:
+    """
+    Convert an absolute local folder path to a clickable GitHub tree URL.
+
+    Strategy:
+      1. Make the path relative to REPO_ROOT
+      2. URL-encode EACH segment individually (preserves / separators)
+      3. If a Solution.java or .java file exists inside, link to the
+         file directly (blob URL); otherwise link to the folder (tree URL).
+
+    Examples:
+      REPO_ROOT/topics/strings/812-rotate-string/
+        → https://github.com/yadavxprakhar/DSA-Solutions/tree/main/topics/strings/812-rotate-string
+
+      REPO_ROOT/Difficulty: Medium/Find length of Loop/
+        → https://github.com/yadavxprakhar/DSA-Solutions/tree/main/Difficulty%3A%20Medium/Find%20length%20of%20Loop
+    """
+    try:
+        rel = folder_path.relative_to(REPO_ROOT)
+    except ValueError:
+        # path is already relative — make it absolute first
+        rel = Path(str(folder_path).lstrip("./"))
+
+    # Encode each path segment separately so slashes stay as literal /
+    encoded_parts = [quote(part, safe="") for part in rel.parts]
+    encoded_path  = "/".join(encoded_parts)
+
+    # Prefer linking to the solution file if it exists
+    link_type = "tree"
+    if folder_path.exists():
+        java_files = list(folder_path.glob("*.java"))
+        if java_files:
+            # Pick Solution.java first, else the first .java file found
+            target = next((f for f in java_files if f.name == "Solution.java"), java_files[0])
+            file_parts   = [quote(part, safe="") for part in target.relative_to(REPO_ROOT).parts]
+            encoded_path = "/".join(file_parts)
+            link_type    = "blob"
+
+    return f"https://github.com/{GITHUB_REPO}/{link_type}/main/{encoded_path}"
+
 
 def infer_topic(slug: str) -> str:
     s = slug.lower()
@@ -168,7 +214,7 @@ def scan_leetcode() -> list[dict]:
                     "title":      slug.replace("-", " ").title(),
                     "difficulty": "unknown",   # filled by cache later
                     "topic":      topic,
-                    "path":       f"./topics/{topic}/{prob_dir.name}/",
+                    "path":       build_github_url(prob_dir),
                     "ts":         ts,
                     "date":       datetime.fromtimestamp(ts, tz=timezone.utc).strftime("%Y-%m-%d") if ts else "—",
                     "_slug":      slug,
@@ -192,7 +238,7 @@ def scan_leetcode() -> list[dict]:
             "title":      slug.replace("-", " ").title(),
             "difficulty": "unknown",
             "topic":      infer_topic(slug),
-            "path":       f"./{item.name}/",
+            "path":       build_github_url(item),
             "ts":         ts,
             "date":       datetime.fromtimestamp(ts, tz=timezone.utc).strftime("%Y-%m-%d") if ts else "—",
             "_slug":      slug,
@@ -238,7 +284,7 @@ def scan_gfg() -> list[dict]:
                 "title":      name,
                 "difficulty": difficulty,
                 "topic":      infer_topic(slug),
-                "path":       f"./{diff_dir.name}/{prob_dir.name}/",
+                "path":       build_github_url(prob_dir),
                 "ts":         ts,
                 "date":       datetime.fromtimestamp(ts, tz=timezone.utc).strftime("%Y-%m-%d") if ts else "—",
                 "_slug":      slug,
