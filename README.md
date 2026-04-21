@@ -109,20 +109,18 @@ DSA-Solutions/
 ## 🔥 Recent Activity
 
 <!-- RECENT:START -->
-| # | Problem | Difficulty | Topic | Date | Solution |
-|---|---------|------------|-------|------|----------|
-| 838 | 🟠 LC Design Linked List | 🟡 Medium | Linked List | 2026-04-21 | [View →](./topics/linked-list/838-design-linked-list/) |
-| 142 | 🟠 LC Linked List Cycle Ii | 🟡 Medium | Linked List | 2026-04-20 | [View →](./topics/linked-list/142-linked-list-cycle-ii/) |
-| 141 | 🟠 LC Linked List Cycle | 🟢 Easy | Linked List | 2026-04-20 | [View →](./topics/linked-list/141-linked-list-cycle/) |
-| — | 🔵 GFG Find length of Loop | 🟡 Medium | Linked List | 2026-04-20 | [View →](./Difficulty: Medium/Find length of Loop/) |
-| — | 🔵 GFG Reverse a Doubly Linked List | 🟢 Easy | Linked List | 2026-04-18 | [View →](./Difficulty: Easy/Reverse a Doubly Linked List/) |
-| — | 🔵 GFG Insertion at doubly linked list | 🟢 Easy | Linked List | 2026-04-18 | [View →](./Difficulty: Easy/Insertion at doubly linked list/) |
-| 19 | 🟠 LC Remove Nth Node From End Of List | 🟡 Medium | Linked List | 2026-04-17 | [View →](./topics/linked-list/19-remove-nth-node-from-end-of-list/) |
-| — | 🔵 GFG Delete in a Doubly Linked List | 🟢 Easy | Linked List | 2026-04-17 | [View →](./Difficulty: Easy/Delete in a Doubly Linked List/) |
-| — | 🔵 GFG Delete Head of Doubly Linked List | 🟢 Easy | Linked List | 2026-04-17 | [View →](./Difficulty: Easy/Delete Head of Doubly Linked List/) |
-| 908 | 🟠 LC Middle Of The Linked List | 🟢 Easy | Linked List | 2026-04-17 | [View →](./topics/linked-list/908-middle-of-the-linked-list/) |
-| 206 | 🟠 LC Reverse Linked List | 🟢 Easy | Linked List | 2026-04-17 | [View →](./topics/linked-list/206-reverse-linked-list/) |
-| — | 🔵 GFG Create a Doubly Linked List from a given array | 🟢 Easy | Linked List | 2026-04-17 | [View →](./Difficulty: Easy/Create a Doubly Linked List from a given array/) |
+| # | Problem | Difficulty | Topic | Solution |
+|---|---------|------------|-------|---------|
+| 812 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Rotate String | 🟢 Easy | Strings | [View →](./topics/strings/812-rotate-string/) |
+| 8 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) String to Integer (atoi) | 🟡 Medium | Strings | [View →](./topics/strings/8-string-to-integer-atoi/) |
+| 5 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Longest Palindromic Substring | 🟡 Medium | Strings | [View →](./topics/strings/5-longest-palindromic-substring/) |
+| 451 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Sort Characters By Frequency | 🟡 Medium | Strings | [View →](./topics/strings/451-sort-characters-by-frequency/) |
+| 242 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Valid Anagram | 🟢 Easy | Strings | [View →](./topics/strings/242-valid-anagram/) |
+| 205 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Isomorphic Strings | 🟢 Easy | Strings | [View →](./topics/strings/205-isomorphic-strings/) |
+| 2032 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Largest Odd Number in String | 🟢 Easy | Strings | [View →](./topics/strings/2032-largest-odd-number-in-string/) |
+| 1890 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Sum of Beauty of All Substrings | 🟡 Medium | Strings | [View →](./topics/strings/1890-sum-of-beauty-of-all-substrings/) |
+| 151 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Reverse Words in a String | 🟡 Medium | Strings | [View →](./topics/strings/151-reverse-words-in-a-string/) |
+| 14 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Longest Common Prefix | 🟢 Easy | Strings | [View →](./topics/strings/14-longest-common-prefix/) |
 <!-- RECENT:END -->
 
 ---
