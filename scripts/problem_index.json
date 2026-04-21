@@ -158,5 +158,10 @@
     "title": "Create a Doubly Linked List from a given array",
     "difficulty": "easy",
     "platform": "gfg"
+  },
+  "lc-234-palindrome-linked-list": {
+    "title": "Palindrome Linked List",
+    "difficulty": "easy",
+    "platform": "leetcode"
   }
 }
