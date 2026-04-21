@@ -111,8 +111,8 @@ DSA-Solutions/
 <!-- RECENT:START -->
 | # | Problem | Difficulty | Topic | Date | Solution |
 |---|---------|------------|-------|------|----------|
-| 2216 | 🟠 LC Delete The Middle Node Of A Linked List | ⚪ Unknown | Linked List | 2026-04-21 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/2216-delete-the-middle-node-of-a-linked-list/delete-the-middle-node-of-a-linked-list.java) |
-| 328 | 🟠 LC Odd Even Linked List | ⚪ Unknown | Linked List | 2026-04-21 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/328-odd-even-linked-list/odd-even-linked-list.java) |
+| 2216 | 🟠 LC Delete The Middle Node Of A Linked List | ⚪ Unknown | Linked List | 2026-04-21 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/topics/linked-list/2216-delete-the-middle-node-of-a-linked-list/delete-the-middle-node-of-a-linked-list.java) |
+| 328 | 🟠 LC Odd Even Linked List | ⚪ Unknown | Linked List | 2026-04-21 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/topics/linked-list/328-odd-even-linked-list/odd-even-linked-list.java) |
 | 234 | 🟠 LC Palindrome Linked List | 🟢 Easy | Linked List | 2026-04-21 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/topics/linked-list/234-palindrome-linked-list/palindrome-linked-list.java) |
 | 838 | 🟠 LC Design Linked List | 🟡 Medium | Linked List | 2026-04-21 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/topics/linked-list/838-design-linked-list/design-linked-list.java) |
 | 142 | 🟠 LC Linked List Cycle Ii | 🟡 Medium | Linked List | 2026-04-20 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/topics/linked-list/142-linked-list-cycle-ii/linked-list-cycle-ii.java) |
