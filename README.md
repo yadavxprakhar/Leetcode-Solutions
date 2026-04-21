@@ -47,6 +47,7 @@ DSA-Solutions/
 ├── 📁 Difficulty/
 │   ├── Basic/
 │   ├── Easy/
+│   ├── Meduim/
 │
 ├── 📁 scripts/
 │   ├── update_readme.py
