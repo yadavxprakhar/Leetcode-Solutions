@@ -111,6 +111,7 @@ DSA-Solutions/
 <!-- RECENT:START -->
 | # | Problem | Difficulty | Topic | Date | Solution |
 |---|---------|------------|-------|------|----------|
+| 148 | 🟠 LC Sort List | ⚪ Unknown | Linked List | 2026-04-21 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/148-sort-list/sort-list.java) |
 | 2216 | 🟠 LC Delete The Middle Node Of A Linked List | ⚪ Unknown | Linked List | 2026-04-21 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/topics/linked-list/2216-delete-the-middle-node-of-a-linked-list/delete-the-middle-node-of-a-linked-list.java) |
 | 328 | 🟠 LC Odd Even Linked List | ⚪ Unknown | Linked List | 2026-04-21 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/topics/linked-list/328-odd-even-linked-list/odd-even-linked-list.java) |
 | 234 | 🟠 LC Palindrome Linked List | 🟢 Easy | Linked List | 2026-04-21 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/topics/linked-list/234-palindrome-linked-list/palindrome-linked-list.java) |
@@ -122,7 +123,6 @@ DSA-Solutions/
 | — | 🔵 GFG Insertion at doubly linked list | 🟢 Easy | Linked List | 2026-04-18 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/Difficulty%3A%20Easy/Insertion%20at%20doubly%20linked%20list/insertion-at-doubly-linked-list.java) |
 | 19 | 🟠 LC Remove Nth Node From End Of List | 🟡 Medium | Linked List | 2026-04-17 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/topics/linked-list/19-remove-nth-node-from-end-of-list/remove-nth-node-from-end-of-list.java) |
 | — | 🔵 GFG Delete in a Doubly Linked List | 🟢 Easy | Linked List | 2026-04-17 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/Difficulty%3A%20Easy/Delete%20in%20a%20Doubly%20Linked%20List/delete-in-a-doubly-linked-list.java) |
-| — | 🔵 GFG Delete Head of Doubly Linked List | 🟢 Easy | Linked List | 2026-04-17 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/Difficulty%3A%20Easy/Delete%20Head%20of%20Doubly%20Linked%20List/delete-head-of-doubly-linked-list.java) |
 <!-- RECENT:END -->
 
 ---
