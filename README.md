@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=F7A825&center=true&vCenter=true&width=700&lines=⚡+LeetCode+Solutions+by+Prakhar+Yadav;Daily+DSA+%7C+Interview+Prep+%7C+Java;Patterns+over+Memorization." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=F7A825&center=true&vCenter=true&width=700&lines=⚡+DSA+Solutions+by+Prakhar+Yadav;LeetCode+%2B+GeeksForGeeks+%7C+Java;Patterns+over+Memorization." alt="Typing SVG" />
 
 <br/>
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-yadavxprakhar-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/yadavxprakhar/)
+[![GFG](https://img.shields.io/badge/GeeksForGeeks-prakharyxdev-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://auth.geeksforgeeks.org/user/prakharyxdev)
 [![GitHub](https://img.shields.io/badge/GitHub-yadavxprakhar-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yadavxprakhar)
 [![Language](https://img.shields.io/badge/Language-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
-[![Last Updated](https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=Last+Updated&query=updated_at&url=https://api.github.com/repos/yadavxprakhar/Leetcode-Solutions&color=00C9A7)](https://github.com/yadavxprakhar/Leetcode-Solutions)
 
 </div>
 
@@ -15,7 +15,7 @@
 
 ## 👨‍💻 About Me
 
-I'm **Prakhar Yadav**, a final-year CS student obsessed with building scalable systems and mastering DSA for software engineering roles. This repo is my **daily problem-solving journal** — every push is a rep, every solution is a pattern learned.
+I'm **Prakhar Yadav**, a final-year CS student obsessed with building scalable systems and mastering DSA for software engineering roles. This repo tracks my daily problem solving across **LeetCode** and **GeeksForGeeks** — every push is a rep, every solution is a pattern learned.
 
 > 🎯 **Mission**: Solve 2+ problems daily. Focus on **patterns**, not memorization.
 
@@ -26,10 +26,26 @@ I'm **Prakhar Yadav**, a final-year CS student obsessed with building scalable s
 <!-- STATS:START -->
 | Platform | 🔵 Basic | 🟢 Easy | 🟡 Medium | 🔴 Hard | **Total** |
 |----------|----------|---------|-----------|---------|-----------|
-| ![LC](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=white) LeetCode | — | 11 | 9 | 0 | **20** |
-| ![GFG](https://img.shields.io/badge/GFG-2F8D46?style=flat-square&logo=geeksforgeeks&logoColor=white) GeeksForGeeks | 2 | 9 | 1 | 0 | **12** |
-| **Combined** | — | 20 | 10 | 0 | **32** |
+| ![LC](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=white) LeetCode | — | 0 | 0 | 0 | **0** |
+| ![GFG](https://img.shields.io/badge/GFG-2F8D46?style=flat-square&logo=geeksforgeeks&logoColor=white) GeeksForGeeks | 0 | 0 | 0 | 0 | **0** |
+| **Combined** | — | 0 | 0 | 0 | **0** |
 <!-- STATS:END -->
+
+---
+
+## 🏆 Platform Breakdown
+
+<!-- PLATFORM:START -->
+| | LeetCode | GeeksForGeeks |
+|--|----------|---------------|
+| Problems | 0 (0%) | 0 (0%) |
+| Easy | 0 | 0 |
+| Medium | 0 | 0 |
+| Hard | 0 | 0 |
+| Basic (GFG) | — | 0 |
+
+> 📦 **Total across both platforms: 0 problems solved**
+<!-- PLATFORM:END -->
 
 ---
 
@@ -38,22 +54,10 @@ I'm **Prakhar Yadav**, a final-year CS student obsessed with building scalable s
 ```
 DSA-Solutions/
 │
-├── 📁 .github/
-│   └── workflows/
-│       ├── update-readme.yml
-│       └── validate-solution.yml
-│
-├── 📁 Difficulty/
-│   ├── Basic/
-│   ├── Easy/
-│   ├── Meduim/
-│
-├── 📁 scripts/
-│   ├── update_readme.py
-│   └── generate_stats.py
-│
-├── 📁 topics/
+├── 📁 topics/                          ← LeetCode (organized, topic-wise)
 │   ├── arrays/
+│   │   └── 1-two-sum/
+│   │       └── Solution.java
 │   ├── strings/
 │   ├── linked-list/
 │   ├── trees/
@@ -68,12 +72,23 @@ DSA-Solutions/
 │   ├── heap/
 │   └── math/
 │
-├── 📁 patterns/
-│   ├── sliding-window/
-│   ├── two-pointers/
-│   ├── fast-slow-pointers/
-│   ├── merge-intervals/
-│   └── ...
+├── 📁 Difficulty: Basic/               ← GFG (auto-pushed by GFG-to-GitHub)
+│   └── {Problem Name}/
+│       └── Solution.java
+├── 📁 Difficulty: Easy/
+├── 📁 Difficulty: Medium/
+├── 📁 Difficulty: Hard/
+│
+├── 📁 {num}-{slug}/                    ← LeetCode root dumps (unorganized LeetSync)
+│
+├── 📁 .github/
+│   └── workflows/
+│       ├── update-readme.yml           ← runs daily, updates all stats
+│       └── validate-solution.yml       ← validates on every push
+│
+├── 📁 scripts/
+│   ├── update_readme.py                ← dual-platform stats engine
+│   └── problem_index.json              ← difficulty cache (auto-updated)
 │
 └── README.md
 ```
@@ -85,8 +100,6 @@ DSA-Solutions/
 <!-- TOPICS:START -->
 | Topic | Solved | 🔵 Basic | 🟢 Easy | 🟡 Medium | 🔴 Hard |
 |-------|--------|----------|---------|-----------|---------|
-| Strings | 12 | 0 | 7 | 5 | 0 |
-| Linked List | 20 | 2 | 13 | 5 | 0 |
 <!-- TOPICS:END -->
 
 ---
@@ -96,34 +109,25 @@ DSA-Solutions/
 <!-- RECENT:START -->
 | # | Problem | Difficulty | Topic | Solution |
 |---|---------|------------|-------|---------|
-| 812 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Rotate String | 🟢 Easy | Strings | [View →](./topics/strings/812-rotate-string/) |
-| 8 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) String to Integer (atoi) | 🟡 Medium | Strings | [View →](./topics/strings/8-string-to-integer-atoi/) |
-| 5 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Longest Palindromic Substring | 🟡 Medium | Strings | [View →](./topics/strings/5-longest-palindromic-substring/) |
-| 451 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Sort Characters By Frequency | 🟡 Medium | Strings | [View →](./topics/strings/451-sort-characters-by-frequency/) |
-| 242 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Valid Anagram | 🟢 Easy | Strings | [View →](./topics/strings/242-valid-anagram/) |
-| 205 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Isomorphic Strings | 🟢 Easy | Strings | [View →](./topics/strings/205-isomorphic-strings/) |
-| 2032 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Largest Odd Number in String | 🟢 Easy | Strings | [View →](./topics/strings/2032-largest-odd-number-in-string/) |
-| 1890 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Sum of Beauty of All Substrings | 🟡 Medium | Strings | [View →](./topics/strings/1890-sum-of-beauty-of-all-substrings/) |
-| 151 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Reverse Words in a String | 🟡 Medium | Strings | [View →](./topics/strings/151-reverse-words-in-a-string/) |
-| 14 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Longest Common Prefix | 🟢 Easy | Strings | [View →](./topics/strings/14-longest-common-prefix/) |
+| — | No problems yet | — | — | — |
 <!-- RECENT:END -->
 
 ---
 
-## 🧠 Pattern Cheatsheet (WIP)
+## 🧠 Pattern Cheatsheet
 
-| Pattern | When to Use | Problems |
-|---------|-------------|---------|
+| Pattern | When to Use | Key Problems |
+|---------|-------------|--------------|
 | Sliding Window | Subarray/substring of size k | Max sum subarray, Longest substring |
-| Two Pointers | Sorted arrays, pairs | Two Sum II, Container with Most Water |
+| Two Pointers | Sorted arrays, pairs with sum | Two Sum II, Container with Most Water |
 | Fast/Slow Pointers | Cycle detection, middle of list | Linked List Cycle, Middle of LL |
 | Merge Intervals | Overlapping ranges | Meeting Rooms, Insert Interval |
-| Binary Search | Sorted search space | Search in Rotated Array |
+| Binary Search | Sorted / monotonic search space | Search Rotated Array, Median of Arrays |
 | BFS/DFS | Tree/Graph traversal | Level order, Number of Islands |
-| DP - 1D | Linear recurrence | Climbing Stairs, House Robber |
-| DP - 2D | Grid/String matching | Unique Paths, LCS |
-| Monotonic Stack | Next greater/smaller | Daily Temperatures |
-| Backtracking | All subsets/permutations | Subsets, Permutations |
+| DP — 1D | Linear recurrence | Climbing Stairs, House Robber |
+| DP — 2D | Grid/String matching | Unique Paths, LCS |
+| Monotonic Stack | Next greater/smaller element | Daily Temperatures, Largest Rectangle |
+| Backtracking | All subsets/permutations | Subsets, Permutations, N-Queens |
 
 ---
 
@@ -141,11 +145,12 @@ DSA-Solutions/
 
 ## ⚙️ How This Repo Works
 
-1. I solve problems daily on LeetCode
-2. **LeetSync** automatically pushes solutions to this repo
-3. A **GitHub Action** runs daily to update the README stats
-4. Solutions follow a **standard template** with approach + complexity
-5. Problems are **manually tagged** by topic after each push
+1. I solve problems daily on **LeetCode** and **GeeksForGeeks**
+2. **LeetSync** auto-pushes LC solutions → `{num}-{slug}/` in root
+3. **GFG-to-GitHub** extension auto-pushes GFG solutions → `Difficulty: {level}/{name}/`
+4. I manually move LC solutions to the correct `topics/` folder (5 min/day)
+5. A **GitHub Action** runs nightly → scans both folder patterns → updates README stats
+6. `problem_index.json` caches LC difficulty from the LeetCode API so it's only fetched once per problem
 
 ---
 
@@ -162,5 +167,5 @@ DSA-Solutions/
 ---
 
 <div align="center">
-<sub>⚡ Updated daily • Built with consistency • Powered by Java</sub>
+<sub>⚡ Updated daily • LeetCode + GeeksForGeeks • Powered by Java</sub>
 </div>
