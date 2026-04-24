@@ -113,6 +113,7 @@ DSA-Solutions/
 <!-- RECENT:START -->
 | # | Problem | Difficulty | Topic | Date | Solution |
 |---|---------|------------|-------|------|----------|
+| 160 | 🟠 LC Intersection Of Two Linked Lists | ⚪ Unknown | Linked List | 2026-04-24 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/160-intersection-of-two-linked-lists/intersection-of-two-linked-lists.java) |
 | — | 🔵 GFG Longest Subarray with Sum K | 🟡 Medium | Arrays | 2026-04-21 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/tree/main/Difficulty%3A%20Medium/Longest%20Subarray%20with%20Sum%20K) |
 | 148 | 🟠 LC Sort List | 🟡 Medium | Linked List | 2026-04-21 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/148-sort-list/sort-list.java) |
 | 2216 | 🟠 LC Delete The Middle Node Of A Linked List | 🟡 Medium | Linked List | 2026-04-21 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/topics/linked-list/2216-delete-the-middle-node-of-a-linked-list/delete-the-middle-node-of-a-linked-list.java) |
@@ -124,7 +125,6 @@ DSA-Solutions/
 | — | 🔵 GFG Find length of Loop | 🟡 Medium | Linked List | 2026-04-20 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/Difficulty%3A%20Medium/Find%20length%20of%20Loop/find-length-of-loop.java) |
 | — | 🔵 GFG Reverse a Doubly Linked List | 🟢 Easy | Linked List | 2026-04-18 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/Difficulty%3A%20Easy/Reverse%20a%20Doubly%20Linked%20List/reverse-a-doubly-linked-list.java) |
 | — | 🔵 GFG Insertion at doubly linked list | 🟢 Easy | Linked List | 2026-04-18 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/Difficulty%3A%20Easy/Insertion%20at%20doubly%20linked%20list/insertion-at-doubly-linked-list.java) |
-| 19 | 🟠 LC Remove Nth Node From End Of List | 🟡 Medium | Linked List | 2026-04-17 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/topics/linked-list/19-remove-nth-node-from-end-of-list/remove-nth-node-from-end-of-list.java) |
 <!-- RECENT:END -->
 
 ---
