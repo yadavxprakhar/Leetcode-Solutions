@@ -183,5 +183,10 @@
     "title": "Longest Subarray with Sum K",
     "difficulty": "medium",
     "platform": "gfg"
+  },
+  "lc-160-intersection-of-two-linked-lists": {
+    "title": "Intersection of Two Linked Lists",
+    "difficulty": "easy",
+    "platform": "leetcode"
   }
 }
