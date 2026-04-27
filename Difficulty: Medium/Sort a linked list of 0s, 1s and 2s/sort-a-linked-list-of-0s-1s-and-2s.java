@@ -15,33 +15,32 @@ class Solution {
         if(head == null || head.next == null){
             return head;
         }
-        int cnt0 = 0;
-        int cnt1 = 0;
-        int cnt2 = 0;
+        Node zeroHead = new Node(-1);
+        Node zero = zeroHead;
+        Node oneHead = new Node(-1);
+        Node one = oneHead;
+        Node twoHead = new Node(-1);
+        Node two = twoHead;
         Node temp = head;
         while(temp!= null){
-            if(temp.data == 0) cnt0++;
-            else if(temp.data == 1) cnt1++;
-            else cnt2++;
-            temp = temp.next;
-        }
-        temp = head;
-        while(temp!=null){
-            if(cnt0 != 0){
-                temp.data = 0;
-                cnt0--;
+            if(temp.data == 0){
+                zero.next = temp;
+                zero = temp;
             }
-            else if (cnt1 !=0){
-                temp.data =1;
-                cnt1--;
+            else if(temp.data == 1){
+                one.next = temp;
+                one = temp;
             }
             else{
-                temp.data = 2;
-                cnt2--;
+                two.next = temp;
+                two = temp;
             }
             temp = temp.next;
         }
-        return head;
-        
+        zero.next = (oneHead.next!=null) ? oneHead.next : twoHead.next;
+        one.next = twoHead.next;
+        two.next = null;
+        Node newHead = zeroHead.next;
+        return newHead;
     }
 }
