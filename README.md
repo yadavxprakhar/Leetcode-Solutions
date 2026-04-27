@@ -113,6 +113,7 @@ DSA-Solutions/
 <!-- RECENT:START -->
 | # | Problem | Difficulty | Topic | Date | Solution |
 |---|---------|------------|-------|------|----------|
+| 2 | 🟠 LC Add Two Numbers | ⚪ Unknown | General | 2026-04-27 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/2-add-two-numbers/add-two-numbers.java) |
 | — | 🔵 GFG Sort a linked list of 0s, 1s and 2s | 🟡 Medium | Linked List | 2026-04-25 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/Difficulty%3A%20Medium/Sort%20a%20linked%20list%20of%200s%2C%201s%20and%202s/sort-a-linked-list-of-0s-1s-and-2s.java) |
 | 160 | 🟠 LC Intersection Of Two Linked Lists | 🟢 Easy | Linked List | 2026-04-24 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/160-intersection-of-two-linked-lists/intersection-of-two-linked-lists.java) |
 | — | 🔵 GFG Longest Subarray with Sum K | 🟡 Medium | Arrays | 2026-04-21 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/tree/main/Difficulty%3A%20Medium/Longest%20Subarray%20with%20Sum%20K) |
@@ -124,7 +125,6 @@ DSA-Solutions/
 | 142 | 🟠 LC Linked List Cycle Ii | 🟡 Medium | Linked List | 2026-04-20 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/topics/linked-list/142-linked-list-cycle-ii/linked-list-cycle-ii.java) |
 | 141 | 🟠 LC Linked List Cycle | 🟢 Easy | Linked List | 2026-04-20 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/topics/linked-list/141-linked-list-cycle/linked-list-cycle.java) |
 | — | 🔵 GFG Find length of Loop | 🟡 Medium | Linked List | 2026-04-20 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/Difficulty%3A%20Medium/Find%20length%20of%20Loop/find-length-of-loop.java) |
-| — | 🔵 GFG Reverse a Doubly Linked List | 🟢 Easy | Linked List | 2026-04-18 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/Difficulty%3A%20Easy/Reverse%20a%20Doubly%20Linked%20List/reverse-a-doubly-linked-list.java) |
 <!-- RECENT:END -->
 
 ---
