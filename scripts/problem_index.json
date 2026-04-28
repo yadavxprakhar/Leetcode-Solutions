@@ -203,5 +203,10 @@
     "title": "Add 1 to a Linked List Number",
     "difficulty": "medium",
     "platform": "gfg"
+  },
+  "gfg-medium-delete-all-occurrences-of-a-given-key-in-a-doubly-linked-list": {
+    "title": "Delete all occurrences of a given key in a doubly linked list",
+    "difficulty": "medium",
+    "platform": "gfg"
   }
 }
