@@ -113,6 +113,7 @@ DSA-Solutions/
 <!-- RECENT:START -->
 | # | Problem | Difficulty | Topic | Date | Solution |
 |---|---------|------------|-------|------|----------|
+| 61 | 🟠 LC Rotate List | ⚪ Unknown | Linked List | 2026-04-30 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/61-rotate-list/rotate-list.java) |
 | 25 | 🟠 LC Reverse Nodes In K Group | 🔴 Hard | Linked List | 2026-04-29 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/25-reverse-nodes-in-k-group/reverse-nodes-in-k-group.java) |
 | 1056 | 🟠 LC Capacity To Ship Packages Within D Days | 🟡 Medium | General | 2026-04-29 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/1056-capacity-to-ship-packages-within-d-days/capacity-to-ship-packages-within-d-days.java) |
 | — | 🔵 GFG Delete all occurrences of a given key in a doubly linked list | 🟡 Medium | Linked List | 2026-04-28 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/Difficulty%3A%20Medium/Delete%20all%20occurrences%20of%20a%20given%20key%20in%20a%20doubly%20linked%20list/delete-all-occurrences-of-a-given-key-in-a-doubly-linked-list.java) |
@@ -124,7 +125,6 @@ DSA-Solutions/
 | — | 🔵 GFG Longest Subarray with Sum K | 🟡 Medium | Arrays | 2026-04-21 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/tree/main/Difficulty%3A%20Medium/Longest%20Subarray%20with%20Sum%20K) |
 | 2216 | 🟠 LC Delete The Middle Node Of A Linked List | 🟡 Medium | Linked List | 2026-04-21 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/topics/linked-list/2216-delete-the-middle-node-of-a-linked-list/delete-the-middle-node-of-a-linked-list.java) |
 | 328 | 🟠 LC Odd Even Linked List | 🟡 Medium | Linked List | 2026-04-21 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/topics/linked-list/328-odd-even-linked-list/odd-even-linked-list.java) |
-| 234 | 🟠 LC Palindrome Linked List | 🟢 Easy | Linked List | 2026-04-21 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/topics/linked-list/234-palindrome-linked-list/palindrome-linked-list.java) |
 <!-- RECENT:END -->
 
 ---
