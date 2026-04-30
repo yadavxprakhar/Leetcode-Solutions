@@ -218,5 +218,15 @@
     "title": "Reverse Nodes in k-Group",
     "difficulty": "hard",
     "platform": "leetcode"
+  },
+  "lc-61-rotate-list": {
+    "title": "Rotate List",
+    "difficulty": "medium",
+    "platform": "leetcode"
+  },
+  "lc-907-koko-eating-bananas": {
+    "title": "Koko Eating Bananas",
+    "difficulty": "medium",
+    "platform": "leetcode"
   }
 }
