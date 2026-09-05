@@ -933,5 +933,10 @@
     "title": "Smallest Stable Index I",
     "difficulty": "easy",
     "platform": "leetcode"
+  },
+  "lc-4285-smallest-stable-index-ii": {
+    "title": "Smallest Stable Index II",
+    "difficulty": "medium",
+    "platform": "leetcode"
   }
 }
