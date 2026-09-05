@@ -121,18 +121,20 @@ DSA-Solutions/
 ## 🔥 Recent Activity
 
 <!-- RECENT:START -->
-| # | Problem | Difficulty | Topic | Solution |
-|---|---------|------------|-------|---------|
-| 2634 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Minimum Common Value | 🟡 Medium | Two Pointers | [View →](./topics/two-pointers/2634-minimum-common-value/) |
-| 16 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) 3Sum Closest | 🟡 Medium | Two Pointers | [View →](./topics/two-pointers/16-3sum-closest/) |
-| 15 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) 3Sum | 🟡 Medium | Two Pointers | [View →](./topics/two-pointers/15-3sum/) |
-| 3844 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Number of Ways to Assign Edge Weights I | 🟡 Medium | Trees | [View →](./topics/trees/3844-number-of-ways-to-assign-edge-weights-i/) |
-| 812 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Rotate String | 🟢 Easy | Strings | [View →](./topics/strings/812-rotate-string/) |
-| 8 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) String to Integer (atoi) | 🟡 Medium | Strings | [View →](./topics/strings/8-string-to-integer-atoi/) |
-| 5 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Longest Palindromic Substring | 🟡 Medium | Strings | [View →](./topics/strings/5-longest-palindromic-substring/) |
-| 451 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Sort Characters By Frequency | 🟡 Medium | Strings | [View →](./topics/strings/451-sort-characters-by-frequency/) |
-| 43 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Multiply Strings | 🟡 Medium | Strings | [View →](./topics/strings/43-multiply-strings/) |
-| 3405 | ![LC](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=white) Count the Number of Special Characters II | 🟡 Medium | Strings | [View →](./topics/strings/3405-count-the-number-of-special-characters-ii/) |
+| # | Problem | Difficulty | Topic | Date | Solution |
+|---|---------|------------|-------|------|----------|
+| 4285 | 🟠 LC Smallest Stable Index Ii | 🟡 Medium | General | 2026-09-05 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/4285-smallest-stable-index-ii/smallest-stable-index-ii.java) |
+| 4284 | 🟠 LC Smallest Stable Index I | 🟢 Easy | General | 2026-09-04 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/4284-smallest-stable-index-i/smallest-stable-index-i.java) |
+| 4258 | 🟠 LC Construct Uniform Parity Array Ii | 🟡 Medium | Arrays | 2026-09-03 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/4258-construct-uniform-parity-array-ii/construct-uniform-parity-array-ii.java) |
+| 4256 | 🟠 LC Construct Uniform Parity Array I | 🟢 Easy | Arrays | 2026-09-02 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/4256-construct-uniform-parity-array-i/construct-uniform-parity-array-i.java) |
+| 3870 | 🟠 LC Minimum Moves To Clean The Classroom | 🟡 Medium | General | 2026-09-01 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/3870-minimum-moves-to-clean-the-classroom/minimum-moves-to-clean-the-classroom.java) |
+| 2182 | 🟠 LC Find The Minimum And Maximum Number Of Nodes Between Critical Points | 🟡 Medium | Linked List | 2026-08-31 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/find-the-minimum-and-maximum-number-of-nodes-between-critical-points.java) |
+| 2212 | 🟠 LC Removing Minimum And Maximum From Array | 🟡 Medium | Arrays | 2026-08-31 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/2212-removing-minimum-and-maximum-from-array/removing-minimum-and-maximum-from-array.java) |
+| 3375 | 🟠 LC Kth Smallest Amount With Single Denomination Combination | 🔴 Hard | Backtracking | 2026-08-21 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/3375-kth-smallest-amount-with-single-denomination-combination/kth-smallest-amount-with-single-denomination-combination.java) |
+| 3347 | 🟠 LC Distribute Elements Into Two Arrays I | 🟢 Easy | Arrays | 2026-08-20 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/tree/main/3347-distribute-elements-into-two-arrays-i) |
+| 3705 | 🟠 LC Find The Largest Almost Missing Integer | 🟢 Easy | General | 2026-08-18 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/3705-find-the-largest-almost-missing-integer/find-the-largest-almost-missing-integer.java) |
+| 2156 | 🟠 LC Stone Game Ix | 🟡 Medium | General | 2026-08-16 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/2156-stone-game-ix/stone-game-ix.java) |
+| 4033 | 🟠 LC Longest Subsequence With Non Zero Bitwise Xor | 🟡 Medium | Dynamic Programming | 2026-08-15 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/4033-longest-subsequence-with-non-zero-bitwise-xor/longest-subsequence-with-non-zero-bitwise-xor.java) |
 <!-- RECENT:END -->
 
 ---
