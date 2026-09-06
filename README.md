@@ -123,6 +123,7 @@ DSA-Solutions/
 <!-- RECENT:START -->
 | # | Problem | Difficulty | Topic | Date | Solution |
 |---|---------|------------|-------|------|----------|
+| 115 | 🟠 LC Distinct Subsequences | ⚪ Unknown | Dynamic Programming | 2026-09-06 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/115-distinct-subsequences/distinct-subsequences.java) |
 | 4285 | 🟠 LC Smallest Stable Index Ii | 🟡 Medium | General | 2026-09-05 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/4285-smallest-stable-index-ii/smallest-stable-index-ii.java) |
 | 4284 | 🟠 LC Smallest Stable Index I | 🟢 Easy | General | 2026-09-04 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/4284-smallest-stable-index-i/smallest-stable-index-i.java) |
 | 4258 | 🟠 LC Construct Uniform Parity Array Ii | 🟡 Medium | Arrays | 2026-09-03 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/4258-construct-uniform-parity-array-ii/construct-uniform-parity-array-ii.java) |
@@ -134,7 +135,6 @@ DSA-Solutions/
 | 3347 | 🟠 LC Distribute Elements Into Two Arrays I | 🟢 Easy | Arrays | 2026-08-20 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/tree/main/3347-distribute-elements-into-two-arrays-i) |
 | 3705 | 🟠 LC Find The Largest Almost Missing Integer | 🟢 Easy | General | 2026-08-18 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/3705-find-the-largest-almost-missing-integer/find-the-largest-almost-missing-integer.java) |
 | 2156 | 🟠 LC Stone Game Ix | 🟡 Medium | General | 2026-08-16 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/2156-stone-game-ix/stone-game-ix.java) |
-| 4033 | 🟠 LC Longest Subsequence With Non Zero Bitwise Xor | 🟡 Medium | Dynamic Programming | 2026-08-15 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/4033-longest-subsequence-with-non-zero-bitwise-xor/longest-subsequence-with-non-zero-bitwise-xor.java) |
 <!-- RECENT:END -->
 
 ---
