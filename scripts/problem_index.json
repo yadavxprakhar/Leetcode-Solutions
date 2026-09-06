@@ -938,5 +938,10 @@
     "title": "Smallest Stable Index II",
     "difficulty": "medium",
     "platform": "leetcode"
+  },
+  "lc-115-distinct-subsequences": {
+    "title": "Distinct Subsequences",
+    "difficulty": "hard",
+    "platform": "leetcode"
   }
 }
