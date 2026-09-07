@@ -943,5 +943,10 @@
     "title": "Distinct Subsequences",
     "difficulty": "hard",
     "platform": "leetcode"
+  },
+  "lc-977-distinct-subsequences-ii": {
+    "title": "Distinct Subsequences II",
+    "difficulty": "hard",
+    "platform": "leetcode"
   }
 }
