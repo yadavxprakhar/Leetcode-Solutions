@@ -123,6 +123,7 @@ DSA-Solutions/
 <!-- RECENT:START -->
 | # | Problem | Difficulty | Topic | Date | Solution |
 |---|---------|------------|-------|------|----------|
+| 4245 | 🟠 LC Count Commas In Range | ⚪ Unknown | General | 2026-09-08 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/4245-count-commas-in-range/count-commas-in-range.java) |
 | 977 | 🟠 LC Distinct Subsequences Ii | 🔴 Hard | Dynamic Programming | 2026-09-07 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/977-distinct-subsequences-ii/distinct-subsequences-ii.java) |
 | 115 | 🟠 LC Distinct Subsequences | 🔴 Hard | Dynamic Programming | 2026-09-06 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/115-distinct-subsequences/distinct-subsequences.java) |
 | 4285 | 🟠 LC Smallest Stable Index Ii | 🟡 Medium | General | 2026-09-05 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/4285-smallest-stable-index-ii/smallest-stable-index-ii.java) |
@@ -134,7 +135,6 @@ DSA-Solutions/
 | 2212 | 🟠 LC Removing Minimum And Maximum From Array | 🟡 Medium | Arrays | 2026-08-31 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/2212-removing-minimum-and-maximum-from-array/removing-minimum-and-maximum-from-array.java) |
 | 3375 | 🟠 LC Kth Smallest Amount With Single Denomination Combination | 🔴 Hard | Backtracking | 2026-08-21 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/3375-kth-smallest-amount-with-single-denomination-combination/kth-smallest-amount-with-single-denomination-combination.java) |
 | 3347 | 🟠 LC Distribute Elements Into Two Arrays I | 🟢 Easy | Arrays | 2026-08-20 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/tree/main/3347-distribute-elements-into-two-arrays-i) |
-| 3705 | 🟠 LC Find The Largest Almost Missing Integer | 🟢 Easy | General | 2026-08-18 | [View →](https://github.com/yadavxprakhar/DSA-Solutions/blob/main/3705-find-the-largest-almost-missing-integer/find-the-largest-almost-missing-integer.java) |
 <!-- RECENT:END -->
 
 ---
