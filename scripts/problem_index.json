@@ -948,5 +948,10 @@
     "title": "Distinct Subsequences II",
     "difficulty": "hard",
     "platform": "leetcode"
+  },
+  "lc-4245-count-commas-in-range": {
+    "title": "Count Commas in Range",
+    "difficulty": "easy",
+    "platform": "leetcode"
   }
 }
